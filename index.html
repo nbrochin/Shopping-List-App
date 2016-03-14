@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<meta charset="UTF-8">
+	<title>My Shopping List App</title>
+</head>
+<body>
+	<header>
+		<div class="header-container">
+				<div class="logo"><img src="images/logo-10.png" alt="walrus logo"></div>
+				<div class="navigation">
+					<ul>
+						<li><a href="#">link 1</a></li>
+						<li><a href="#">link 2</a></li>
+						<li><a href="#">link 3</a></li>
+					</ul>
+				</div>
+		</div>
+	</header>
+	<main>
+		<div class="input-container">
+			<h2> Enter Your List Name Here:</h2>
+				<form class="">
+  					<input type="text" size="65" name="listname"><br /><br />
+  						</h3>
+  				</form>
+  				<form class="">
+  						<table id="t01">
+  							<tr>
+  								<th>Enter Your Shopping Items:</th>
+  								<th>Category</th>
+  								<th>QTY</th>
+  							</tr>
+  							<tr>
+  								<td><input type="text" size="50" name="item01"></td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+								</tr>
+								<tr>
+  								<td><input type="text" size="50" name="item02"></td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+								</tr>
+								<tr>
+  								<td><input type="text" size="50" name="item03"></td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+								</tr>
+								<tr>
+  								<td><input type="text" size="50" name="item04"></td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+								</tr>
+								<tr>
+  								<td><input type="text" size="50" name="item05"></td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+								</tr>
+								<tr>
+									<td><br /><button class="btn btn-primary">create list</button>
+									</td>
+								</tr>
+
+  						</table>
+					</form>
+		</div>
+		<div class="display-container">
+			<h1> Weekly Groceries</h1>
+				<br />
+  				<form class="">
+  						<table id="t01">
+  							<tr><th>Got It
+  								<th>Items</th>
+  								<th>Category</th>
+  								<th>QTY</th>
+  								<th>remove</th>
+  							</tr>
+  							<tr>
+  								<td><span class="fa fa-check-square"></span></td>
+  								<td>brown eggs</td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+  								<td><span class="remove fa fa-minus-circle"></span></td>
+								</tr>
+								<tr>
+  								<td><span class="fa fa-check-square-o"></span></td>
+  								<td>brown eggs</td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+  								<td><span class="remove fa fa-minus-circle"></span></td>
+								</tr>
+								<tr>
+  								<td><span class="fa fa-check-square-o"></span></td>
+  								<td>brown eggs</td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+  								<td><span class="remove fa fa-minus-circle"></span></td>
+								</tr>
+								<tr>
+  								<td><span class="fa fa-check-square-o"></span></td>
+  								<td>brown eggs</td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+  								<td><span class="remove fa fa-minus-circle"></span></td>
+								</tr>
+								<tr>
+  								<td><span class="fa fa-check-square-o"></span></td>
+  								<td>asparagus</td>
+  								<td>
+  									<select name="category">
+  									<option value="dairy">dairy</option>
+ 									<option value="bakery">bakery</option>
+ 									<option value="meat">meat</option>
+  									<option value="produce">produce</option>
+									</select>
+								</td>
+								<td>
+									<select name="quantity">
+  									<option value="1">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+  									<option value="4">4</option>
+  									</select>
+  								</td>
+  								<td><span class="remove fa fa-minus-circle"></span></td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+								</tr>
+
+  						</table>
+  					</form>
+				<textarea rows="4" cols="50">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+</textarea>
+		</div>
+		
+	<footer>
+		<div class="columns">
+			<div class="col-1">©2016 groceryme.com</div>
+			<div class="col-2">find us on Facebook</div>
+			<div class="col-3">learn more<br />read more</div>
+		</div>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
