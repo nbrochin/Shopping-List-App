@@ -1,0 +1,108 @@
+
+body {
+
+    background-color: white;
+    font-family: 'Hind Vadodara', sans-serif;
+    margin:0;
+    line-height: 1;
+}
+
+
+table#t01 {
+    width: 100%; 
+}
+
+table#t01, th, td {
+    padding: 6px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+ul {
+  margin:0;
+  list-style: none;
+  display: inline-flex;
+}
+
+li {
+    display: inline-flex;
+}
+
+header {
+	padding: 22px 0;
+    border-bottom: 1px solid #EEE;
+    width:100%;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.header-container {
+	margin-right: 20px;
+	overflow: auto;
+}
+
+.logo {
+	display: inline-block;
+	margin: 12px;
+}
+
+.navigation {
+	display: inline-block;
+	margin-top: 36px;
+	float: right;
+}
+
+.navigation li {
+	padding: 0 10px;
+}
+
+.remove {
+	color: #ff3300;
+	font-size: 18px;
+}
+
+.main {
+	width: auto;
+	border-bottom: 1px solid Blue;
+	display: inline-block;
+}
+
+.input-container {
+	display: inline-block;
+    width: 44%;
+    padding: 20px;
+    margin-left: 20px;
+    border-right: 1px solid Blue;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.display-container {
+	display: inline-block;
+    width: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+footer {
+	border-top: 1px solid gray;
+	background-color: #dddddd;
+	min-height: 150px;
+	margin-top: 25px;
+}
+
+footer .col-1, .col-2, .col-3 {
+	display:inline-block;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+	margin-top: 20px;
+}
+
