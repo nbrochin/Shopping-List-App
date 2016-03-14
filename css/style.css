@@ -18,6 +18,39 @@ table#t01, th, td {
     text-align: left;
 }
 
+td .item-selected {
+	color: #aaaaaa;
+	width:180px;
+	text-decoration: line-through;
+}
+
+td .produce {
+	padding:4px;
+	background-color: green;
+	color:white;
+	width:180px;
+}
+
+td .dairy {
+	padding:4px;
+	background-color: #3311cc;
+	color:white;
+	width:180px;
+}
+
+td .grocery {
+	padding:4px;
+	background-color: #552200;
+	color:white;
+	width:180px;
+}
+
+td .dairy-select {
+	padding:4px;
+	background-color: gray;
+	color:white;
+	width:180px;
+}
 
 ul {
   margin:0;
@@ -31,7 +64,7 @@ li {
 
 header {
 	padding: 22px 0;
-    border-bottom: 1px solid #EEE;
+    border-bottom: 1px solid gray;
     width:100%;
 }
 
@@ -75,7 +108,7 @@ h2 {
     width: 44%;
     padding: 20px;
     margin-left: 20px;
-    border-right: 1px solid Blue;
+    border-right: 1px solid gray;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
