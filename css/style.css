@@ -7,21 +7,18 @@ body {
     line-height: 1;
 }
 
-
-table#t01 {
-    width: 100%; 
-}
-
-table#t01, th, td {
-    padding: 6px;
-    border-collapse: collapse;
-    text-align: left;
+h1 .list-title {
+	color: #332288;
 }
 
 td .item-selected {
 	color: #aaaaaa;
 	width:180px;
 	text-decoration: line-through;
+}
+
+.col-md-6 {
+
 }
 
 td .produce {
@@ -106,8 +103,7 @@ h2 {
 .input-container {
 	display: inline-block;
     width: 44%;
-    padding: 20px;
-    margin-left: 20px;
+    margin: 20px;
     border-right: 1px solid gray;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -117,8 +113,7 @@ h2 {
 .display-container {
 	display: inline-block;
     width: 50%;
-    padding: 20px;
-    margin-right: 20px;
+    margin: 20px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

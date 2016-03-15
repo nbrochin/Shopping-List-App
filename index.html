@@ -33,13 +33,13 @@
 	</header>
 	<main>
 		<div class="input-container">
-			<h2> Enter Your List Name Here:</h2>
+			<h1> Enter Your List Name Here:</h1>
 				<div class="input-group">
   					<input type="text" class="form-control" size="65" placeholder="Weekly Groceries" name="listname"><br /><br />
   						</h3>
   				</form>
   				<form class="">
-  						<table id="t01">
+  						<table class="table">
   							<tr>
   								<th>Enter Your Shopping Items:</th>
   								<th>Category</th>
@@ -149,7 +149,7 @@
 					</div>
 		</div>
 		<div class="display-container">
-			<h1> Weekly Groceries</h1>
+			<h1><span class="list-title">Weekly Groceries</span></h1>
 				<br />
   				<form class="">
   						<table class="table">
@@ -215,12 +215,7 @@
   									<span class="grocery">grocery</span>
 								</td>
 								<td>
-									<select name="quantity">
-  									<option value="1">1</option>
- 									<option value="2">2</option>
- 									<option value="3">3</option>
-  									<option value="4">4</option>
-  									</select>
+									<span class="quantity">1 jar</span>
   								</td>
   								<td><span class="remove fa fa-minus-circle"></span></td>
 								</tr>
@@ -231,12 +226,7 @@
   									<span class="produce">produce</span>
 								  </td>
 								<td>
-									<select name="quantity">
-  									<option value="1">1</option>
- 									<option value="2">2</option>
- 									<option value="3">3</option>
-  									<option value="4">4</option>
-  									</select>
+									<span class="quantity">1/2 lb.</span>
   								</td>
   								<td><span class="remove fa fa-minus-circle"></span></td>
 								</tr>
