@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <!-- Latest compiled and minified CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -10,9 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
 	<link rel="stylesheet" href="css/style.css">
 	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 	<meta charset="UTF-8">
@@ -32,7 +29,7 @@
 		</div>
 	</header>
 	<main>
-		<div class="input-container">
+		<div class="input-container clearfix">
 			<h1> Enter Your List Name Here:</h1>
 				<div class="input-group">
   					<input type="text" class="form-control" size="65" placeholder="Weekly Groceries" name="listname"><br /><br />
@@ -148,12 +145,12 @@
   						</table>
 					</div>
 		</div>
-		<div class="display-container">
+		<div class="display-container clearfix">
 			<h1><span class="list-title">Weekly Groceries</span></h1>
 				<br />
   				<form class="">
   						<table class="table">
-  							<tr><th>Got It
+  							<tr><th>Got It</th>
   								<th>Items</th>
   								<th>Category</th>
   								<th>QTY</th>
@@ -230,15 +227,12 @@
   								</td>
   								<td><span class="remove fa fa-minus-circle"></span></td>
 								</tr>
-								<tr>
-									<td>
-									</td>
-								</tr>
-
   						</table>
-  					</form>
+  			</form>
+        <label>Notes:</label>
+        <textarea></textarea>
 		</div>
-		
+	
 	<footer>
 		<div class="columns">
 			<div class="col-1">©2016 groceryme.com</div>
@@ -246,9 +240,8 @@
 			<div class="col-3">learn more<br />read more</div>
 		</div>
 	</footer>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </body>
 </html>

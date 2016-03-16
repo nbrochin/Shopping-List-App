@@ -98,9 +98,11 @@ h2 {
 	width: auto;
 	border-bottom: 1px solid Blue;
 	display: inline-block;
+	overflow: hidden;
 }
 
 .input-container {
+	float: left;
 	display: inline-block;
     width: 44%;
     margin: 20px;
@@ -134,3 +136,16 @@ footer .col-1, .col-2, .col-3 {
 	margin-top: 20px;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+textarea {
+	width: 460px;
+	height:120px;
+}
