@@ -24,6 +24,10 @@ $('.table2').on('click','.checkItem',function() {
   $(this).parent().parent().toggleClass('checked');
 });
 
+$('.table2').on('click','.checkItem',function() {
+$(this).siblings().toggleClass('dairy-checked');
+});
+
 // Function to get input value.
 $('#create-list').click(function() {
   var text_value = $("#new-list-name").val();
@@ -55,7 +59,7 @@ $('#listItemForm').submit(function(event){
     var html='<tr class="item">'+
               '<td> <input class="checkItem" type="checkbox"></td>'+
                   '<td><span class="itemName">'+itemName+'</span></td>'+
-                    '<td>'+'<span class="'+category+'"><em>'+category+'</em></span>'+
+                    '<td>'+'<span class="'+category+'">'+category+'</span>'+
                   '</td>'+
                   '<td><span><b>'+qty+'</b></span></td>'+
                   '<td><span class="quantity-new">'+qtyType+'</span></td>'+
