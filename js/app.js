@@ -1,31 +1,11 @@
 $(document).ready(function () {
 
 $('.display-container').prepend('<h1><span class="list-title">Weekly Grocery List</span></h1>');
-   
-// function displayVals2() {
-//   var singleValuesQ = $( "#quantity" ).val();
-//   $( "b" ).html( "" + singleValuesQ );
-// }
-
-// function displayVals() {
-//   var singleValuesC = $( "#category" ).val();
-//   $( "em" ).html( "" + singleValuesC );
-// }
- 
-// $( "select" ).change( displayVals );
-// displayVals();
-
-// $( "select" ).change( displayVals2 );
-// displayVals2();
 
 // Whenever someone clicks on the checkbox
 // go to the parent TR and add a class of checked
 $('.table2').on('click','.checkItem',function() {
   $(this).parent().parent().toggleClass('checked');
-});
-
-$('.table2').on('click','.checkItem',function() {
-$(this).siblings().toggleClass('dairy-checked');
 });
 
 // Function to get input value.
@@ -74,11 +54,17 @@ $('#listItemForm').submit(function(event){
 // event to trigger - click
 // descendent to trigger the event on - .remove
 // descendent can be added after document.ready
-$('.table2').on('click', '.remove', function(event){
-  $(this).parent().parent().remove();
-});
+// $('.table2').on('click', '.remove', function(event){
+//   $(this).parent().parent().remove();
+// });
 
 // wire up the clrBtn to delete any TR w/ the class of checked
+
+
+$('#delChkBtn').click(function(){
+        $('form input:checked').parents('tr').remove();
+    });
+
 
 
 });

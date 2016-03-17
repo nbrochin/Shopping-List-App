@@ -17,6 +17,10 @@ td label .strike-through {
 	text-decoration: line-through;
 }
 
+thead {
+	margin-bottom: 4px;
+	border-bottom: 1px dotted #cccccc;
+}
 .input-group .form-control {
     width: 85% !important;
 }
