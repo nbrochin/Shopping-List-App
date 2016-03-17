@@ -29,7 +29,7 @@
         </div>
     </div>
   </header>
-  <main2>
+  <div class="main">
     <div class="input-container">
 
       <h1> Enter a List Name Here:</h1>
@@ -38,7 +38,7 @@
             <input id="new-list-name" type="text" class="form-control" size="35" placeholder="Weekly Groceries" name="listname">&nbsp;<button id="create-list" class="btn btn-primary">new list</button><br /><br />
             
           <h1> Enter Your List Items Here:</h1>
-              
+              <form id="listItemForm">
               <table class="table">
                 <tr>
                   <th>Shopping Items</th>
@@ -48,30 +48,31 @@
                   <th>Enter</th>
                 </tr>
                 <tr>
-                  <td><input type="text" id="inputName" class="form-control" /></td>
+                  <td><input type="text" id="itemName" class="form-control" /></td>
                   <td>
                     <select id="category" class="form-control" style="width: 104px !important;">
-                    <option>dairy</option>
-                  <option value="bakery">bakery</option>
-                  <option value="meat">meat</option>
-                    <option value="produce">produce</option>
+                      <option value="dairy">dairy</option>
+                      <option value="bakery">bakery</option>
+                      <option value="meat">meat</option>
+                      <option value="produce">produce</option>
                   </select>
                 </td>
                 <td>
                   <select id="quantity" class="form-control" style="width: 44px !important;">
-                    <option>1</option>
-                  <option selected="2">2</option>
-                  <option value="3">3</option>
+                    <option value="1">1</option>
+                    <option value="2" selected="2">2</option>
+                    <option value="3">3</option>
                     <option value="4">4</option>
-                    </select>
+                  </select>
                   </td>
                   <td>
-                  <input type="text" id="inputName2" class="form-control" />
+                  <input type="text" id="qtyType" class="form-control" />
                   </td>
-                  <td><button id="addStuff" class="btn btn-primary">add</button>
+                  <td><button type="submit" class="btn btn-primary">add</button>
                   </td>
                 </tr>
               </table>
+              </form>
           </div>
     </div>
 
@@ -80,69 +81,23 @@
         <br />
           <form class="">
               <table class="table2">
-                <tr><th>Got It</th>
-                  <th>Items</th>
-                  <th>Category</th>
-                  <th>QTY</th>
-                  <th></th>
-                  <th>remove</th>
-                </tr>
-                <tr><ul class="newItemlist">
-                  <td> <input id="item01" type="checkbox"></td>
-                  <td><span class="item09">item 1</span></td>
-                    <td>
-                    <span class="dairy-select"><em>dairy</em></span>
-                  </td>
-                  <td><span><b>2</b></span></td>
-                  <td><span class="quantity-new">quantity</span></td>
-                  <td><span class="remove fa fa-minus-circle"></span></td></ul>
-                </tr>
-                <tr>
-                  <td><input id="item02" type="checkbox" value="selected"></td>
-                  <td>swiss cheese</td>
-                  <td>
-                    <span class="dairy">dairy</span>
-                </td>
-                <td>1</td>
-                  <td><span class="quantity3"> package</span>
-                  </td>
-                  <td><span class="remove fa fa-minus-circle"></span></td>
-                </tr>
-                <tr>
-                  <td><input type="checkbox" value="selected"></td>
-                  <td>2% milk</td>
-                  <td>
-                    <span class="dairy">dairy</span>
-                </td>
-                <td>3</td>
-                <td>1/2 gallons</td>
-                  <td><span class="remove fa fa-minus-circle"></span></td>
-                </tr>
-                 <tr class="row4">
-                  <td><input type="checkbox" value="selected"></td>
-                  <td>chunky peanut butter</td>
-                  <td>
-                    <span class="grocery">grocery</span>
-                </td>
-                <td>
-                  <span class="quantity">1</span>
-                  </td>
-                  <td>jar</td>
-                  <td><span class="remove fa fa-minus-circle"></span></td>
-                </tr>
-                <tr>
-                 <td><button id="clrBtn" class="btn btn-primary" style="margin-top: 24px;">clear list</button>
-                  </td>
-                <td></td> 
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                </tr>
-                <tr>
+                <thead>
+                  <tr><th>Got It</th>
+                    <th>Items</th>
+                    <th>Category</th>
+                    <th>QTY</th>
+                    <th></th>
+                    <th>remove</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
               </table>
+              <button id="clrBtn" class="btn btn-primary" style="margin-top: 24px;">clear list</button>
         </form>
     </div>
+  </div>
   <footer>
     <div class="columns">
       <div class="col-1">©2016 myshoppinglist.com</div>

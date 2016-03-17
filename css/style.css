@@ -35,9 +35,16 @@ td .dairy {
 	width:180px;
 }
 
-td .grocery {
+td .bakery {
 	padding:4px;
 	background-color: #552200;
+	color:white;
+	width:180px;
+}
+
+td .meat {
+	padding:4px;
+	background-color: red;
 	color:white;
 	width:180px;
 }
@@ -92,6 +99,10 @@ h2 {
     border-top: 1px solid #ddd;
 }
 
+.table2 tr.checked {
+	text-decoration: line-through;
+}
+
 .header-container {
 	margin-right: 20px;
 	overflow: auto;
@@ -125,6 +136,10 @@ h2 {
 	border-bottom: 1px solid Blue;
 	display: inline-block;
 	background-color: #eeefff;
+}
+
+.main {
+	overflow: auto;
 }
 
 .input-container {
