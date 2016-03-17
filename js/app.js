@@ -54,18 +54,17 @@ $('#listItemForm').submit(function(event){
 // event to trigger - click
 // descendent to trigger the event on - .remove
 // descendent can be added after document.ready
-// $('.table2').on('click', '.remove', function(event){
-//   $(this).parent().parent().remove();
-// });
 
-// wire up the clrBtn to delete any TR w/ the class of checked
+$('.table2').on('click', '.remove', function(event){
+  $(this).parent().parent().remove();
+});
+
+// delete any TR w/ the class of checked
 
 
 $('#delChkBtn').click(function(){
         $('form input:checked').parents('tr').remove();
     });
-
-
 
 });
 
