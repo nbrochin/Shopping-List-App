@@ -61,6 +61,11 @@ $('.table2').on('click', '.remove', function(event){
 
 // delete any TR w/ the class of checked
 
+$('#clearAll').click(function(event){
+        $('.logo').replaceWith('<div class="logo">imWatchingYou</div>');
+        $('.table2 tbody').remove();
+
+    });
 
 $('#delChkBtn').click(function(){
         $('form input:checked').parents('tr').remove();

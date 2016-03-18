@@ -151,6 +151,12 @@ h2 {
 	font-size: 18px;
 }
 
+.remove:hover {
+	color: #6f0002;
+	font-size: 18px;
+	cursor: pointer;
+}
+
 .main2 {
 	width: auto;
 	border-bottom: 1px solid Blue;
