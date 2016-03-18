@@ -64,6 +64,7 @@ $('.table2').on('click', '.remove', function(event){
 $('#clearAll').click(function(event){
         $('.logo').replaceWith('<div class="logo">imWatchingYou</div>');
         $('.table2 tbody').remove();
+        $('#clearAll')[0].reset();
 
     });
 
