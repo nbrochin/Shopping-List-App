@@ -120,7 +120,11 @@ h2 {
 
 .table2 tr.checked {
 	background-color: #efefef;
-	color:#cccccc;
+
+}
+
+tr.checked span {
+	opacity: 0.4;
 }
 
 .header-container {
