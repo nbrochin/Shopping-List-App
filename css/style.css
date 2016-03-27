@@ -123,7 +123,7 @@ h2 {
 
 }
 
-tr.checked span {
+tr.checked td.span {
 	opacity: 0.4;
 }
 
