@@ -124,7 +124,7 @@ h2 {
 }
 
 tr.checked td.span {
-	opacity: 0.3;
+	opacity: 0.4;
 }
 
 .header-container {
@@ -175,7 +175,7 @@ tr.checked td.span {
 .input-container {
 	float: left;
 	display: inline-block;
-    width: 42%;
+    width: 38%;
     margin: 40px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
