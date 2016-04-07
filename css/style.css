@@ -99,7 +99,7 @@ h2 {
 }
 
 .item09, .quantity-new {
-	color: #cccccc;
+	color: #333333;
 }
 
 .table2>tbody>tr>td,
@@ -119,12 +119,11 @@ h2 {
 }
 
 .table2 tr.checked {
-	background-color: #efefef;
-
+	background-color: #dddddd;
+  opacity: 0.4;
 }
 
 tr.checked td.span {
-	opacity: 0.4;
 }
 
 .header-container {
